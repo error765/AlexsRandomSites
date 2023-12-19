@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: #FFFFFF;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+
+.toggle {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: none;
+    transition-duration: 0.4s;
+    font-size: 100%;
+    background-color: #E6E8E6;
+    color: black;
+}
+
+.toggle:hover {
+    box-shadow: 0px 0px 10px 0px rgb(127, 127, 127);
+}  
+
+h1 {
+    font-size: 92px;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode .toggle {
+    background-color: #2e2e2e;
+    color: white;
+}
+section {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #E6E8E6;
+    color: black;
+}
+
+.dark-mode section {
+    background-color: #2e2e2e; /* Set a dark background color for dark mode */
+    color: white; /* Set text color for dark mode */
+}
+a {
+    text-decoration: none;
+    color: #525B76;
+}
